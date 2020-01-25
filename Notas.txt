@@ -13,4 +13,5 @@ z = x++
 ++x
 El incremento es inmediato, en ese momento
 
-
+###################### Operador Ternario ################################
+Forma corta de representar IF ELSE 
