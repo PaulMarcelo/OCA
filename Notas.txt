@@ -1,0 +1,16 @@
+Apuntadores
+
+
+Incrementales
+x++
+El incremento se hara efectivo despues del uso de la variable
+
+x =10
+z = x++
+
+--> 
+
+++x
+El incremento es inmediato, en ese momento
+
+
