@@ -15,3 +15,35 @@ El incremento es inmediato, en ese momento
 
 ###################### Operador Ternario ################################
 Forma corta de representar IF ELSE 
+
+
+###################### Arreglos de 2 dimensiones ################################
+
+definicion:
+
+int [] arreglo2[];
+int arreglo3[][];
+int [][] arreglo4;
+
+instanciación:
+int [] arreglo2[]= new int[2][];
+int [] arreglo3[]= new int[2][3];
+
+int [] arreglo3[]= {{3,1},{5,2},{4,1}};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@ public class Indice {
 		int x[] = new int[4];
 
 		x[3] = 10;
-		// x[4] = 8; // error de desborde de tamaño error de ejecucion
+		// x[4] = 8; // error de desborde de tamaño error de ejecucion -> ArrayIndexBoundException
 
 		int values[] = new int[4];
 		values[0] = 3;
