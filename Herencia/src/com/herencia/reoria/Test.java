@@ -3,15 +3,26 @@ package com.herencia.reoria;
 public class Test {
 
 	public static void main(String[] args) {
-		Gato gato = new Gato();
-		gato.comer(); //de animal
-		gato.maullar(); //de gato
-		//gato.dormir(); //método no visible para la clase hija, es un método privado
-		gato.toString(); //de object
+		Gato gato = new Gato(); 
+		gato.maullar();  //de Gato
+		gato.dormir(); 	//de Animal
+		gato.toString();  	//de Object
 		
-		Animal animal = new Animal();
-		//animal.dormir(); //no se puede usar es un método privado
+		System.out.println("-----------------------");
+		Animal animal = new Gato(); 
+		//animal.maullar();  //tipo de dato es animal
+		animal.comer(); 	//de Animal
+		animal.toString();  	//de Object
+		System.out.println("-----------------------");
 		
+		//Gato gato2=new Animal(); // no cumple padre =hijo
+		
+		Gato gato3 = new Gato();
+		Animal a2 = (Animal) gato3;
+		
+		
+		
+		 
 	}
 	
 	

@@ -50,12 +50,21 @@ Reglas:
 
 ###################### Herencia ################################
 
+Padre =Hijo
+Hijo=Padre
+
+Hijo =Hijo
 
 
+para cast simplemente debe estar en relacion de herencia
+padre-hijo
+hijo-padre
+mismo tipo-mismo tipo
 
-
-
-
+###################### Static ################################
+Static .- no pertenece al objeto si no pertenece a la clase
+Un metodo statico pertenece a la clase y no accede a atributos no estaticos
+this no se puede usar en metodos estticos
 
 
 
