@@ -31,6 +31,25 @@ int [] arreglo3[]= new int[2][3];
 
 int [] arreglo3[]= {{3,1},{5,2},{4,1}};
 
+###################### Interfaces - Abstractas ################################
+Interface.- no es una clase
+Método abstracto.- solo es la firma del método, no tiene implementación
+En una interface Todos los métodos son abstractos
+
+Modificadores de acceso en interfaces o clases abstractas
+Métodos privados en el padre no se hereda a las clases hijas.
+Todos los metodos de interface son publicos, por defecto
+Todos los métodos de una clase son default, por defecto
+
+Las Interfaces pueden heredar  de otras interfaces, pero no pueden implementar
+
+Reglas:
+1.- no se instancias interfaces ni clases abstractas
+3.-  
+2.- al sobre escribir un metodo no se puede hacer más restrictivos
+
+###################### Herencia ################################
+
 
 
 
