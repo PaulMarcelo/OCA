@@ -1,6 +1,6 @@
 package com.estaticos.teoria;
 
-public class Test {
+public class  Test {
 
 	public static void main(String[] args) {
 		Count c1 = new Count();
@@ -9,7 +9,7 @@ public class Test {
 		Count.staticValor = 10;
 		c1.staticValor = 20; // funciona(compila y ejecuta) no es la forma correcta
 
-		System.out.println(Count.staticValor);
+		System.out.println(Count.staticValor+w);
 
 		c1.valor = 100;
 //		Count.valor = 200; //es un erro de compilacion
