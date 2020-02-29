@@ -66,6 +66,26 @@ Static .- no pertenece al objeto si no pertenece a la clase
 Un metodo statico pertenece a la clase y no accede a atributos no estaticos
 this no se puede usar en metodos estticos
 
+###################### Casting################################
+--Compilacion
+tipo de dato
+relación de herencia
+--Ejecucion
+aquien apunta
+casting de hijo a un padre
+
+###################### Excepciones################################
+1.-checked
+
+2.-unchecked
+RuntimeException
+
+
+###################### Compilación en consola ################################
+Test.java => javac  => Test.class
+
+
+
 
 
 
