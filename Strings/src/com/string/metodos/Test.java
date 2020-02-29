@@ -2,6 +2,19 @@ package com.string.metodos;
 
 public class Test {
 	public static void main(String[] args) {
+
+		StringBuffer sb = new StringBuffer("cadena");
+		System.out.println(sb);
+
+		StringBuffer sb0 = new StringBuffer(4);
+		sb0.append("asdasdasd");
+		System.out.println(sb0);
+
+		System.out.println("Apuntador : " + sb);
+		System.out.println("cadena : " + sb.toString());
+
+		// Concat , APPEND
+
 		String s1 = "abc"; // new String("abc");
 		String s2 = s1.concat("z");
 
@@ -72,7 +85,14 @@ public class Test {
 
 		StringBuffer sb6 = new StringBuffer(sb5.substring(4));
 		System.out.println(sb6);
-		
+
+		// equalsIgnoreCase
+
+		String s8 = "perro";
+		String s9 = "PeRRo";
+
+		System.out.println(s8.equals(s9));
+		System.out.println(s8.equalsIgnoreCase(s9));
 
 	}
 }
