@@ -1,4 +1,4 @@
-Apuntadores
+ Apuntadores
 
 
 Incrementales
@@ -84,8 +84,26 @@ RuntimeException
 ###################### Compilación en consola ################################
 Test.java => javac  => Test.class
 
+Microsoft Windows [Version 10.0.17763.1039]
+(c) 2018 Microsoft Corporation. Todos los derechos reservados.
+C:\JAVA8_SABADO\Paul Yaguachi\OCA>javac Test.java
+C:\JAVA8_SABADO\Paul Yaguachi\OCA>java Test
+Certificacion java8
 
 
+###################### Tipo de Datos ################################
+
+
+primitivos -> int
+Wrapper -> Integer (normalmente son clases)
+
+###################### String ################################
+
+String es inmutable siempre devuelve un nuevo estring
+El unico metodo de Stringbuilder que de vuelve otro Stringbuilder es el substring, todos los demas metodos
+modifican el mismo Stringbuilder
+
+StringBuffer -> equals funciona como el == , compara posiciones de memoria
 
 
 
