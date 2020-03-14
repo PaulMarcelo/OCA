@@ -20,4 +20,6 @@ public class Parsear {
 		LocalDate ld5 = LocalDate.parse("07/03/2020", datetimeformate);
 		System.out.println(ld5);
 	}
+	
+		
 }

@@ -107,9 +107,10 @@ StringBuffer -> equals funciona como el == , compara posiciones de memoria
 
 
 
+###################### Array List ################################
 
+-El toString esta sobreescrito, imprime los valores contenidos.
+- cuando se agrega items se puede agregar desde la posicion 0 hasta el tamaño del arreglo.
 
-
-
-
+###################### Predicados ################################
 
