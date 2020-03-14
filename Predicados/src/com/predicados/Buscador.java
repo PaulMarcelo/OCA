@@ -26,9 +26,15 @@ public class Buscador {
 		System.out.println(menoresDeEdad);
 
 		// Lambda
-		menoresDeEdad = buscar(personas, (Persona p) -> {
+		Predicate<Persona> predicado = (Persona p) -> {
 			return p.getEdad() < 18;
-		});
+		};
+		predicado = p -> {
+			return p.getEdad() < 18;
+		};
+		predicado = p -> p.getEdad() < 18;
+		predicado = p -> p.getEdad() < 18;
+		System.out.println(menoresDeEdad);
 
 	}
 
